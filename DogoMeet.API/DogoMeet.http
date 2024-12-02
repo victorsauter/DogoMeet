@@ -1,0 +1,6 @@
+@DogoMeet_HostAddress = http://localhost:5155
+
+GET {{DogoMeet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
