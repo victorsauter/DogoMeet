@@ -1,3 +1,4 @@
+using DogoMeet.Common.Endpoint;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,5 +23,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapEndpoints();
 
 app.Run();

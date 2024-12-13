@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogoMeet.API", "DogoMeet.API\DogoMeet.API.csproj", "{6289D9FA-DFE0-4134-950E-8AF940AB2A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogoMeet.EF", "DogoMeet.EF\DogoMeet.EF.csproj", "{3BF3A3C8-31C3-4E86-89DD-AD89EE91FD49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogoMeet.EF", "DogoMeet.EF\DogoMeet.EF.csproj", "{B1D349B6-2A5A-4C6C-8256-A891A486BEAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{6289D9FA-DFE0-4134-950E-8AF940AB2A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6289D9FA-DFE0-4134-950E-8AF940AB2A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6289D9FA-DFE0-4134-950E-8AF940AB2A98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BF3A3C8-31C3-4E86-89DD-AD89EE91FD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BF3A3C8-31C3-4E86-89DD-AD89EE91FD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BF3A3C8-31C3-4E86-89DD-AD89EE91FD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BF3A3C8-31C3-4E86-89DD-AD89EE91FD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D349B6-2A5A-4C6C-8256-A891A486BEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D349B6-2A5A-4C6C-8256-A891A486BEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D349B6-2A5A-4C6C-8256-A891A486BEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D349B6-2A5A-4C6C-8256-A891A486BEAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

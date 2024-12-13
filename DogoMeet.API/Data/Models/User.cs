@@ -1,14 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using DogoMeet.Common;
+using DogoMeet.Common.Models;
 
-namespace DogoMeet.EF;
+namespace DogoMeet.Data.Models;
 
-public class User
+public class User : ModelBase
 {
     [Required]
     public Guid Id { get; set; }
     
-    [Required, MaxLength(50)]
-    public string Username { get; set; }
+    [MaxLength(50)]
+    public required string Username { get; set; }
     
     [Required, MaxLength(50)]
     public string FirstName { get; set; }
@@ -20,5 +22,5 @@ public class User
     public string Email { get; set; }
     
     [Required, MinLength(1)]
-    IEnumerable<Dog> dogs { get; set; }
+    IEnumerable<Dog> Dogs { get; set; }
 }

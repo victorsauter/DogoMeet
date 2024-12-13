@@ -1,6 +1,9 @@
-﻿namespace DogoMeet.EF;
+﻿using DogoMeet.Common;
+using DogoMeet.Common.Models;
 
-public class Walk
+namespace DogoMeet.Data.Models;
+
+public class Walk : ModelBase
 {
     public Guid Id { get; set; }
     

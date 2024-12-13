@@ -1,9 +1,10 @@
-﻿namespace DogoMeet.EF;
+﻿using DogoMeet.Common.Models;
+using DogoMeet.Models.User;
 
-public class Dog
+namespace DogoMeet.Models.Dog;
+
+public interface IDogRequest
 {
-    public Guid Id { get; set; }
-    
     public string Name { get; set; }
     
     public string Breed { get; set; }
@@ -16,5 +17,5 @@ public class Dog
 
     public string Description { get; set; }
     
-    public User Owner { get; set; }
+    public UserDto Owner { get; set; }
 }
